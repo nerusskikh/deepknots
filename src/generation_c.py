@@ -7,6 +7,7 @@ import os
 from tensorflow.python.keras.utils.data_utils import Sequence
 
 
+
 def init(movetype):
     if movetype == 'external':
         dll_path = os.path.join(os.getcwd(), 'src','generator_external.so')
